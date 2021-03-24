@@ -1,0 +1,142 @@
+/* 
+    Author: Vijay Thapa;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    width: 100%
+    padding: 1%   
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center; 
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30 {
+    width: 30%;
+}
+
+.tbl-70 {
+    width: 70%;
+}
+
+
+.tbl-input {
+    width: 300px;
+}
+
+.tbl-heading {
+    border-bottom: 1px solid black;
+    padding: 1rem 1rem;
+    text-align: left;
+}
+
+.tbl-data {
+    padding: 1rem 1rem;
+    text-align: left;
+}
+
+.btn-primary {
+    background-color: #1e90ff;
+    padding: 1rem;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #3742fa;
+}
+
+.btn-secondary {
+    background-color: #7bed9f;
+    padding: 1rem;
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #2ed573;
+}
+
+.btn-danger {
+    background-color: #ff6b81;
+    padding: 1rem;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #ff4757;
+}
+
+/* CSS for Menu */
+.menu {
+    border-bottom: 1px solid grey;
+}
+.menu-list {
+    list-style-type: none;  
+}
+
+.menu-item {
+    display: inline;
+    padding: 1rem;  
+}
+
+.menu-item a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu-item a:hover{
+    color: #ff4757;
+}
+
+/* CSS for Main content */
+.main-content {
+    /* margin: 1rem 0;  */
+    padding: 3rem 0;
+    background-color: #f1f2f6;    
+}
+
+.col-4 {
+    width: 15%;
+    background-color: white;
+    margin: 1rem;
+    padding: 2rem;
+    float: left; 
+}
+
+/* CSS for Footer */
+.footer {
+    background-color: #ff4757;
+}
